@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+
+a {
+    color: #ffc451;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: #ffd584;
+    text-decoration: none;
+  }
+
+/* Banner */
+
+#hero{
+    height: 100vh;
+    width:100%;
+    background: url(./images/hero-bg.jpg) top center/cover;
+    position: relative;
+}
+
+#hero .container{
+    padding: 84px;
+    position: relative;
+    text-align: center;
+}
+
+#hero h1{
+    margin: 0;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "poppins",sans-serif;
+}
+
+#hero h1 span{
+    color: #ffc451;
+}
+
+#hero h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+#hero:before{
+    content: '';
+    background:rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
