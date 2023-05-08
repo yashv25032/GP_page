@@ -6,25 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gp_page</title>
+    <link rel="stylesheet" href="/aos.css">
+
 
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./bootstrap.min.js">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a62188b417.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <header>
+    <header id="header">
 
         <nav class="navbar navbar-expand-lg fixed-top navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">GP <span>.</span></a>
+                <a class="navbar-brand logo ms-5" href="#"> GP<span>.</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <ul class="navbar-nav  me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -43,7 +47,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Link
+                                Dropdown
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -55,13 +59,13 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                            <a class="nav-link " href="#" aria-disabled="true">Contact</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
+                    <!-- <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </nav>
@@ -80,38 +84,38 @@
                 </div>
 
                 <div class="row mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="150">
-                    
+
                     <div class="col-xl-2 col-md-4">
                         <div class="icon-box">
-                            <i class="ri-store-line"></i>
+                            <i class="fa-solid fa-store"></i>
                             <h3><a href="">Lorem Ipsum</a></h3>
                         </div>
                     </div>
 
                     <div class="col-xl-2 col-md-4">
                         <div class="icon-box">
-                            <i class="ri-bar-chart-box-line"></i>
+                            <i class="fa-solid fa-chart-simple"></i>
                             <h3><a href="">Dolor Sitema</a></h3>
                         </div>
                     </div>
 
                     <div class="col-xl-2 col-md-4">
                         <div class="icon-box">
-                            <i class="ri-calendar-todo-line"></i>
+                            <i class="fa-solid fa-calendar-days"></i>
                             <h3><a href="">Sedare Perspiciatis</a></h3>
                         </div>
                     </div>
 
                     <div class="col-xl-2 col-md-4">
                         <div class="icon-box">
-                            <i class="ri-paint-brush-line"></i>
+                            <i class="fa-solid fa-paint-roller"></i>
                             <h3><a href="">Magni Dolores</a></h3>
                         </div>
                     </div>
 
                     <div class="col-xl-2 col-md-4">
                         <div class="icon-box">
-                            <i class="ri-database-2-line"></i>
+                            <i class="fa-solid fa-database"></i>
                             <h3><a href="">Nemos Enimade</a></h3>
                         </div>
                     </div>
@@ -121,11 +125,69 @@
             </div>
 
 
+        </section>
 
+        <section id="about">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
 
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                        <p class="fst-italic">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore
+                            magna aliqua.
+                        </p>
+                        <ul>
+                            <li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</li>
+                            <li><i class="fa-solid fa-check-double"></i> Duis aute irure dolor in reprehenderit in
+                                voluptate velit.</li>
+                            <li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute iru dolor in reprehenderit in voluptate trideta storacalaperda
+                                mastiro dolore eu fugiat nulla pariatur.</li>
+                        </ul>
+
+                        <p>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                        <img src="./images/about.jpg" alt="" class="img-fluid" srcset="">
+                    </div>
+
+                </div>
+            </div>
 
         </section>
+
+        <section id="clients" class="clients">
+            <div class="container" data-aos="zoom-in">
+
+                <div class="col-sm-12">
+                    <marquee behavior="" direction="">
+
+                        <img src="./images/client-1.png" height="50" class="p-2 m-5" alt="">
+                        <img src="./images/client-2.png" height="50" class="p-2 m-5" alt="">
+                        <img src="./images/client-3.png" height="50" class="p-2 m-5" alt="">
+                        <img src="./images/client-4.png" height="50" class="p-2 m-5" alt="">
+                        <img src="./images/client-5.png" height="50" class="p-2 m-5" alt="">
+                        <img src="./images/client-6.png" height="50" class="p-2 m-5" alt="">
+                        <img src="./images/client-7.png" height="50" class="p-2 m-5" alt="">
+                        <img src="./images/client-8.png" height="50" class="p-2 m-5" alt="">
+
+                    </marquee>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <script src="/aos.js"></script>
+    <script src="/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>

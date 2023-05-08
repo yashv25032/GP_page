@@ -15,16 +15,55 @@ h6 {
 }
 
 
-a {
+a{
     color: #ffc451;
     text-decoration: none;
-  }
+}
   
 a:hover {
     color: #ffd584;
     text-decoration: none;
-  }
+}
 
+
+  /* Navbar */
+#header{
+    z-index: 999;
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.5);
+}
+ 
+.navbar .logo{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar .logo span{
+    color: #ffc451;
+}
+
+#navbarScroll{
+    margin-left: 17%;
+}
+
+#navbarScroll ul li{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+#navbarScroll ul li a{
+    color: #fff;
+}
+
+#navbarScroll ul li a:hover{
+    color: #ffc451;
+}
+
+    
 /* Banner */
 
 #hero{
@@ -68,4 +107,42 @@ a:hover {
     left: 0;
     right: 0;
 }
+
+#hero .icon-box{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    padding: 30px 20px ;
+    text-align: center;
+    transition: ease-in-out 0.3s;
+}
+
+#hero .icon-box i{
+    font-size: 32px;
+    color: #ffc451;
+    line-height: 1;
+
+}
+#hero .icon-box h3{
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+#hero .icon-box h3 a{
+    transition: ease-in-out 0.3s;
+    color: #fff;
+}
+
+#hero .icon-box:hover{
+    border-color: #ffc451;
+}
+
+#hero .icon-box h3 a:hover{
+    color: #ffc451;
+}
+
 
