@@ -146,3 +146,16 @@ a:hover {
 }
 
 
+
+/* features */
+
+#features .image{
+    background: url(./images/features.jpg) no-repeat center/cover;
+}
+
+/* counts */
+
+#counts .image{
+    background: url(./images/counts-img.jpg) no-repeat center/cover;
+    min-height: 400px;
+}
