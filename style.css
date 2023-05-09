@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     color: #444444;
 
 }
@@ -70,7 +70,7 @@ a:hover {
 #hero{
     height: 100vh;
     width:100%;
-    background: url(./images/hero-bg.jpg) top  center/cover;
+    background: url(./images/hero-bg.jpg) top center/cover;
     position: relative;
 }
 
